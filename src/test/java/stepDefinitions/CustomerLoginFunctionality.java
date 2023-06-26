@@ -22,6 +22,7 @@ public class CustomerLoginFunctionality extends Base {
     @Then("I click on Login Menu")
     public void i_click_on_login_menu() {
         click( LandingPage.menuLogin );
+        System.out.println("succesfully clicked login menu");
     }
     @Then("I click on Customer Login Menu")
     public void i_click_on_customer_login_menu() {
